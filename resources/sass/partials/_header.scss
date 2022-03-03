@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between; 
+        width: 950px;
+        margin:0 auto;
+        nav {
+            display: flex;
+            align-content: center;
+            
+            ul{
+                display: flex;
+                align-items:center;
+                list-style: none;
+                li{
+                    padding: 0 10px; 
+                    height:100%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 5px solid transparent;
+
+                    &:hover{
+                        color: green;
+                        border-bottom: 5px solid green;
+                    }
+                }
+            }
+        }
+
+    }
+    
+}
