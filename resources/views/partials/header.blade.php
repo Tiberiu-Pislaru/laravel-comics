@@ -5,12 +5,14 @@
         </div>
         <nav>
             <ul>
-    
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
-                <li>ciao</li>
+                <li>CHARACTERS</li>
+                <li>COMICS</li>
+                <li>TV</li>
+                <li>GAMES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
             </ul>
         </nav>
 

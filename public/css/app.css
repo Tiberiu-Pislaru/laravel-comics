@@ -165,6 +165,10 @@ footer .container-links .content-links .social .social-network img {
   text-align: start;
 }
 
+.container-main .container-serie .container-card .card:hover .title-card {
+  color: #0282F9;
+}
+
 .container-main .container-serie .container-card .card .img-card {
   height: 140px;
   margin-bottom: 15px;
