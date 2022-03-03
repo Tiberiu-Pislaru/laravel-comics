@@ -9,6 +9,8 @@
 </head>
 <body>
     @include("partials.header")
-    
+    @include('partials.mainBox')
+
+    @include("partials.footer")
 </body>
 </html>

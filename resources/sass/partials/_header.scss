@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 header {
     display: flex;
     justify-content: space-between;
@@ -6,7 +8,7 @@ header {
 
         display: flex;
         justify-content: space-between; 
-        width: 950px;
+        width: $width-container;
         margin:0 auto;
         nav {
             display: flex;
@@ -24,8 +26,8 @@ header {
                     border-bottom: 5px solid transparent;
 
                     &:hover{
-                        color: green;
-                        border-bottom: 5px solid green;
+                        color: $color-buttons-navbar;
+                        border-bottom: 5px solid $color-buttons-navbar;
                     }
                 }
             }

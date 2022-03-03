@@ -1,2 +1,11 @@
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
+@import './main.scss';
 @import './partials/header';
+@import './partials/footer';
+@import './partials/_jumboTron.scss';
+@import './partials/_mainBox.scss';
+@import "./variables.scss";
+
+// body{
+//     background-color: pink;
+// }

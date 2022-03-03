@@ -1,5 +1,6 @@
 <?php
 
+use Facade\Ignition\DumpRecorder\Dump;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('default');
+    return view('layouts.default');
+});
+
+Route::get('/comics', function () {
+    $data= config('comics');
+    // dump($data);
+    return view('partials.comics', compact('data'));
 });
